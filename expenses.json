@@ -1,0 +1,14 @@
+[
+    {
+        "amount": 100.0,
+        "category": "food",
+        "description": "manchurian",
+        "date": "2026-06-26"
+    },
+    {
+        "amount": 240.0,
+        "category": "shopping",
+        "description": "tshirt",
+        "date": "2026-06-26"
+    }
+]
