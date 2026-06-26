@@ -1,0 +1,9 @@
+from datetime import date
+print("=== expense tracker ===")
+print("1. Add expense")
+print("2. View expenses")
+print("3. Total spent")
+print("4. Category-wise summary" )
+print("5. Exit")
+choice = input("Enter your choice: ")
+today = date.today()
