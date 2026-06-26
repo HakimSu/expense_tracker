@@ -10,5 +10,17 @@
         "category": "shopping",
         "description": "tshirt",
         "date": "2026-06-26"
+    },
+    {
+        "amount": 1000.0,
+        "category": "extra",
+        "description": "pen set",
+        "date": "2026-06-26"
+    },
+    {
+        "amount": 450.0,
+        "category": "shopping",
+        "description": "pant",
+        "date": "2026-06-26"
     }
 ]
