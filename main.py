@@ -37,8 +37,7 @@ def total_spent():
     with open ("expenses.json", "r") as file:
         exps = json.load(file)
 
-    for exp in exps:
-        total = sum(exp["amount"])
+    total = sum(exp["amount"] for exp in exps)
 
     print(f"Total Expense: {total}")
 
@@ -47,7 +46,7 @@ def category_summary():
         exps = json.load(file)
 
     if exps:
-        print(f"Date        Category  Amount   Description")
+        print(f"Date        Category Amount   Description")
         for exp in exps:
             print(f"{exp["date"]}    {exp["category"]}    {exp["amount"]}    {exp["description"]}")
     else:

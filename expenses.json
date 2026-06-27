@@ -1,3 +1,26 @@
 [
-    
+    {
+        "date": "2026-06-27",
+        "amount": 1600.0,
+        "category": "bag",
+        "description": "shop"
+    },
+    {
+        "date": "2026-06-27",
+        "amount": 1300.0,
+        "category": "pen",
+        "description": "bookshop"
+    },
+    {
+        "date": "2026-06-27",
+        "amount": 900.0,
+        "category": "fan",
+        "description": "electricals"
+    },
+    {
+        "date": "2026-06-27",
+        "amount": 7500.0,
+        "category": "GTA VI",
+        "description": "Rockstar Games"
+    }
 ]
