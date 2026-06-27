@@ -66,8 +66,8 @@ print("1. Add expense")
 print("2. View expenses")
 print("3. Total spent")
 print("4. Category Summary" )
-print("5. Delete all expenses" )
-print("6. Exit")
+# print("5. Delete all expenses" )
+print("5. Exit")
 while True:
 
     choice = input("Enter your choice: ")
@@ -86,11 +86,8 @@ while True:
 
     elif choice == "4":
         category_summary()
-
+     
     elif choice == "5":
-        delete_expenses()
-        
-    elif choice == "6":
         print("Exited")
         break
 
