@@ -54,10 +54,10 @@ def category_summary():
         print("You have no Expenses")
         return
     
-def delete_expenses():
-    with open ("expenses.json", "w") as file:
-        json.dump({}, file)
-    print("Expenses Deleted Successfully")
+# def delete_expenses():
+#     with open ("expenses.json", "w") as file:
+#         json.dump([{}], file)
+#     print("Expenses Deleted Successfully")
     
 print("+-------------------+")
 print("|  Expense Tracker  |")
